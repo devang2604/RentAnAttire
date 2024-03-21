@@ -28,6 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  animated_text_kit: ^4.2.2
   another_flushbar: ^1.12.30
   another_transformer_page_view: ^2.0.1
   cupertino_icons: ^1.0.6
@@ -40,6 +41,8 @@ dependencies:
   flutter_local_notifications: ^17.0.0
   font_awesome_flutter: ^10.7.0
   google_sign_in: ^6.2.1
+  lottie: ^3.1.0
+  nice_buttons: ^0.0.3
   provider: ^6.1.2
   quiver: ^3.2.1
   sign_in_button: ^3.2.0
@@ -64,6 +67,7 @@ flutter:
     - assets/logo.png
     - assets/RAA-logo.png
     - assets/profile.jpeg
+    - assets/fashion.json
   #   - images/a_dot_ham.jpeg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
